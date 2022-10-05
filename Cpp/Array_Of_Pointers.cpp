@@ -1,8 +1,8 @@
 #include<iostream>
-using namespace std ;
+using namespace std ;				
 
 
-class Student
+class Student										// Class Declaration
 {
 	private :
 		int age ;
@@ -30,26 +30,26 @@ int main()
 	int n , i , search ;
 	cout << "Enter the no. of students" ;
 	cin >> n ;
-	Student *p[n];
+	Student *p[n];									// Array Of Pointers
 	
-	for ( i = 0 ; i < n ; i++ )
+	for ( i = 0 ; i < n ; i++ )							// Assigninig Objects To Pointers
 	{
 		p[i] = new Student() ;	
 	}
 	
-	for ( i = 0 ; i < n ; i++ )
-     {
-            p[i] -> getdata() ;       
-     }
+	for ( i = 0 ; i < n ; i++ )							// Assigning Data To Objects
+     	{
+           	p[i] -> getdata() ;       
+     	}
 	
 	cout << "Name" << "\t" << "Age" << "\n" ;
 	
-	for ( i = 0 ; i < n ; i++ )
+	for ( i = 0 ; i < n ; i++ )							// Displaying Student Data
 	{
 		p[i] -> display() ;
 	}
 
-	cout << "Enter the no. to Search" << "\n" ;
+	cout << "Enter the no. to Search" << "\n" ;					// Displaying Student Data According Sr. NO.
 	cin >> search ;
 	p[search - 1] -> display() ;
 
