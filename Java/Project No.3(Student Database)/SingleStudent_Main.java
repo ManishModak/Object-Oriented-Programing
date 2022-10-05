@@ -1,6 +1,6 @@
 import java.util.* ;
 
-public class StudentStudent_Main
+public class SingleStudent_Main
 {
 
 	public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class StudentStudent_Main
 		System.out.println("Enter The Name");
 		name = Sc.next() ;
 		
-		Student S = new Student(age , name) ;
+		SingleStudent S = new SingleStudent(age , name) ;
 		S.display();
 	}
 
