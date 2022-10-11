@@ -6,7 +6,7 @@ public class EmployeeDatabase
   {
 		
 		Scanner Sc = new Scanner(System.in) ;
-		DerivedClass E[] = new DerivedClass[20] ;
+		Employee E[] = new Employee[20] ;
 		int choice , i = 0 , Age , Sr ;
 		String Name , Address ; 
 		
@@ -30,7 +30,7 @@ public class EmployeeDatabase
 					System.out.print("\nEnter Address Of Employee : ") ;
 					Address = Sc.next();
 					
-					E[i] = new DerivedClass(Name , Age , Address) ;
+					E[i] = new Employee(Name , Age , Address) ;
 					i ++ ;
 					break ;
 					
@@ -52,8 +52,7 @@ public class EmployeeDatabase
 					System.out.print("\nEnter Address Of Employee : ") ;
 					Address = Sc.next();
 					
-					E[Sr-1] = new DerivedClass(Name , Age , Address) ; 
-					//E[Sr-1] = E[i] ;
+					E[Sr-1] = new Employee(Name , Age , Address) ; 
 					break ;
 					
 				case 4 :
