@@ -31,3 +31,6 @@ Problem Statement                     : A bag consists of zero or more objects o
                                         values for these attributes. Provide a facility to keep track of total number of
                                         objects and total weight of object from a bag. Use static variable and
                                         method, array of object, and constructor overloading.
+                                        
+Project No.5(Inheritance)             : Inheritance , Super keyword , Array of Objects
+Problem Statement                     : 
