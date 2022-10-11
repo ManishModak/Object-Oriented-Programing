@@ -2,7 +2,7 @@ public class Employee extends Student
 {
 	private String Address ;
 	
-	public DerivedClass(String name , int age , String Address)
+	public Employee(String name , int age , String Address)
 	{
 		super(name , age) ;
 		this.Address = Address ;
