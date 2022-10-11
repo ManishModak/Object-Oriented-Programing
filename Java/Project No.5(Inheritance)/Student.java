@@ -1,4 +1,4 @@
-Public class BaseClass 
+Public class Student
 {
 	private String name ;
 	private int age ;
