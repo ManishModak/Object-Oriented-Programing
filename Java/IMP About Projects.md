@@ -3,7 +3,7 @@ Default Format
 Project Name                          : Main Concepts
 Problem Statement                     :
 
-SEARCH WHAT YOU WANT 😁😁
+SEARCH IF YOU WANT 😁😁
 ALSO THNX FOR LOOKING INTO MY PROJECTS
 */
 
@@ -32,5 +32,11 @@ Problem Statement                     : A bag consists of zero or more objects o
                                         objects and total weight of object from a bag. Use static variable and
                                         method, array of object, and constructor overloading.
                                         
-Project No.5(Inheritance)             : Inheritance , Super keyword , Array of Objects
-Problem Statement                     : 
+Project No.5(Inheritance)             : Inheritance , Super keyword , Array of Objects ,Switch Case 
+Problem Statement                     : Design a class 'Person' with data members 
+                                        name, age, DOB, employee id, PAN card number, mobile number, and email id.
+                                        Inherit the classes: Assistant Professor, Associate Professor, and Professor.
+                                        Add Basic Pay (BP) and Department Name as the member of all the inherited classes.
+                                        Generate pay slips for the employees with their gross and net salary.
+                                        Calculate the salary with 119% of BP as DA, 30 % of BP as HRA, 
+                                        12% of BP as PF (deduction), 0.1% of BP (deduction) for staff club fund.
