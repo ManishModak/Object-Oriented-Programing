@@ -1,19 +1,20 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class pn {
-
 	public static void main(String[] args) {
+		
 		Scanner obj = new Scanner(System.in);
 		int num ;
-		int flag = -1 ;
+		boolean flag = false;
+
 		do{
-			System.out.println("Enter the no. :") ;
+			System.out.print("\nEnter the no.: ") ;
 			num = obj.nextInt();
 		}while(num < 1);
-		//System.out.println(num);
+		
 		if(num == 1) 
 		{
-			flag = 0;
+			flag = false;
 		}
 		else 
 		{
@@ -21,13 +22,12 @@ public class pn {
 			{
 				if (num == 2) 
 				{
-					flag = 1 ;
+					flag = true ;
 				}
 				else
 				{
-					flag = 0 ;
+					flag = false ;
 				}
-				
 			}
 			else
 			{
@@ -36,24 +36,26 @@ public class pn {
 				{
 					if( num % i == 0)
 					{
-						flag = 0 ;
+						flag = false ;
+						break;
 					}
 					else
 					{
-						flag = 1 ;
+						flag = true ;
 					}
 				}
 			}
 		}
-		if(flag == 0)
+
+		if(flag)
 		{
-			System.out.println("NO.is not prime");
+			System.out.println(num+" is prime");
 		}
 		else
 		{
-			System.out.println("NO.is prime");
+			System.out.println(num+" is not prime");
 		}
-
+		obj.close();
 	}
 
 }
