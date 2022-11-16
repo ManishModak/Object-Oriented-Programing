@@ -48,3 +48,9 @@ Problem Statement                      : Design a base class Shape with two doub
                                          Make compute_area() as abstract method and redefine this method in the derived class to suit their requirements.
                                          Write a program that accepts dimensions of triangle/rectangle/circle and display calculated area.
                                          Implement dynamic binding for given case study.
+                                         
+Project No.7(Generic Programming)      : Collection Framework(ArrayList) , StringBuilder class
+Problem Statement                      : Implement a generic program using collection class (ArrayList) 
+                                         to count the number of elements in a collection that have a specific property
+                                         such as even numbers, odd number, prime number and palindromes.
+
