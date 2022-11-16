@@ -4,6 +4,7 @@ Project Name                          : Main Concepts
 Problem Statement                     :
 
 SEARCH IF YOU WANT 😁😁
+CHECK IN RAW FOR BETTER VIEW
 ALSO THNX FOR LOOKING INTO MY PROJECTS
 */
 
@@ -32,7 +33,7 @@ Problem Statement                     : A bag consists of zero or more objects o
                                         objects and total weight of object from a bag. Use static variable and
                                         method, array of object, and constructor overloading.
                                         
-Project No.5(Inheritance)             : Inheritance , Super keyword , Array of Objects ,Switch Case 
+Project No.5(Inheritance)             : Inheritance , Super keyword , Array of Objects , Switch Case 
 Problem Statement                     : Design a class 'Person' with data members 
                                         name, age, DOB, employee id, PAN card number, mobile number, and email id.
                                         Inherit the classes: Assistant Professor, Associate Professor, and Professor.
@@ -40,3 +41,10 @@ Problem Statement                     : Design a class 'Person' with data member
                                         Generate pay slips for the employees with their gross and net salary.
                                         Calculate the salary with 119% of BP as DA, 30 % of BP as HRA, 
                                         12% of BP as PF (deduction), 0.1% of BP (deduction) for staff club fund.
+                                        
+Project No.6(Hierarchical Inheritance) : Inheritance , Abstract Class & Methods , Switch Case
+Problem Statement                      : Design a base class Shape with two double type values and methods to input the data and compute_area()
+                                         for calculating area of shape. Derive three classes: triangle, rectangle, and circle.
+                                         Make compute_area() as abstract method and redefine this method in the derived class to suit their requirements.
+                                         Write a program that accepts dimensions of triangle/rectangle/circle and display calculated area.
+                                         Implement dynamic binding for given case study.
